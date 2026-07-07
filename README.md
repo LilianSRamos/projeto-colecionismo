@@ -3,3 +3,4 @@
 2. Cada usuário pode ter mais de uma coleção com diversos itens cadastrados, tendo eles: foto, nome, descrição, categorias como cor, tamanho e raridade, além disso pode dar uma etiqueta de "Queridinho da coleção" ao item.
 3. O usuário pode interagir com outros usuários e pode haver coméricio entre eles, além de amizades, seguidores e fóruns de determinado assunto.
 4. O usuário é cadastrado com foto, nome de usuário, e-mail, telefone, data de nascimento e área de interesse.
+5. O usuário pode ser premium, com insígnia de identificação, pode publicar mais que 5 itens por dia, pode ter mais de 10 coleções, tem figurinhas diferentes para mandar no chat.
