@@ -17,4 +17,5 @@ public class Item {
 	public void setCadastrarCategorias(Categorias categorias) {
 		this.categorias.add(categorias);
 	}
+	
 }
