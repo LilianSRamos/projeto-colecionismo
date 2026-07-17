@@ -13,7 +13,7 @@ public class Usuario {
 	public ArrayList <Amigo> amigo = new ArrayList<Amigo>();
 	public Premium premium;
 	
-	public void setnomeUsuario (String nomeUsuario) {
+	public void setNomeUsuario (String nomeUsuario) {
 		this.nomeUsuario = nomeUsuario;
 	}
 	public void setEmail (String email) {
@@ -30,16 +30,16 @@ public class Usuario {
 	}
 	
 	public void setCriarColecao (Colecao colecao) {
-		
+		this.colecao.add(colecao);
 	}
 	public void setAdicionarFotoPerfil (FotoPerfil fotoPerfil) {	
-		
+		 this.fotoPerfil = fotoPerfil;
 	}
 	
 	public void setAdicionarAmigo (Amigo amigo) {
-		
+		this.amigo.add(amigo);
 	}
 	public void setVirarPremium (Premium premium) {
-		
+		this.premium = premium;
 	}
 }
