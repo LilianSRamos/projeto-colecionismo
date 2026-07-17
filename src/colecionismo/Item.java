@@ -2,11 +2,15 @@ package colecionismo;
 import java.util.ArrayList;
 
 public class Item {
-	private String nomeItem;
+	public String nomeItem;
 	private String descricaoItem;
 	private String queridinho = "✨";
 	public ArrayList <Categorias> categorias = new ArrayList<Categorias>();
-	
+		
+	public String getNomeItem() {
+		return nomeItem;
+	}
+	 
 	public void setAdicionarNome(String nomeItem) {
 		this.nomeItem = nomeItem;
 	}
